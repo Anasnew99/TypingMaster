@@ -1,0 +1,128 @@
+.keyboard-image{
+  transform: rotate(30deg);
+  width:50%;
+  height:50%;
+}
+.title{
+padding:4%;
+font-size: 4.5rem;
+text-align: center;
+font-family:'Righteous', cursive;
+color:#06623b;
+}
+
+body{
+  background-color: #f6d743;
+  text-align: center;
+}
+.start-reset{
+  padding-bottom:5%;
+}
+.start-btn{
+  font-family:'Righteous', cursive;
+  font-size: 2em;
+}
+.reset-btn{
+  font-family:'Righteous', cursive;
+  font-size: 2rem;
+  display:none;
+}
+.type-area{
+  width:100%;
+  height:200px;
+  background-color: white;
+  border:2px ridge black;
+  margin-bottom:5%;
+}
+
+.intro{
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  padding:5%;
+}
+@media(max-width:960px){
+
+  .title{
+  padding:7%;
+  font-size: 3rem;
+  text-align: center;
+  font-family:'Righteous', cursive;
+  color:#06623b;
+  }
+  .start-btn{
+    font-family:'Righteous', cursive;
+    font-size: 1.5em;
+  }
+  .reset-btn{
+    font-family:'Righteous', cursive;
+    font-size: 1.5rem;
+    display:none;
+  }
+  .type-area{
+    margin-bottom:15%;
+  }
+  .notyped{
+    float: left;
+    padding:2% 3%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 14px;
+    color:blue;
+  }
+  .nohastobetyped{
+    float: right;
+    padding:2% 3%;
+    font-family: 'Indie Flower', cursive;
+    font-size:14px;
+    color:blue;
+  }
+  .help{
+    float:none;
+    padding:3% 0%;
+    height:14px;
+    display:block;
+    font-size:14px;
+    font-family:'Righteous', cursive;
+    color:red;
+  }
+}
+center{
+  font-family: 'Merriweather', serif;
+  color: #1f4068;
+  padding:7%;
+  font-size: 3rem;
+  letter-spacing:3px;
+
+}
+.success-box{
+  color:green;
+  border-bottom:2px dashed green;
+  transform:rotate(-15deg);
+}
+.danger-box{
+  color:red;
+  border-bottom=2px dashed red;
+  transform:rotate(15deg);
+}
+.notyped{
+  float: left;
+  padding:2% 3%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 14px;
+  color:blue;
+}
+.nohastobetyped{
+  float: right;
+  padding:1% 3%;
+  font-family: 'Indie Flower', cursive;
+  font-size:14px;
+  color:blue;
+}
+.help{
+  float:none;
+  padding:1% 0%;
+  height:14px;
+  display:block;
+  font-size:14px;
+  font-family:'Righteous', cursive;
+  color:red;
+}
